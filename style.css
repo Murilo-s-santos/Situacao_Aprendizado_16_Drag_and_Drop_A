@@ -1,0 +1,62 @@
+body
+{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #121212;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.game-container
+{
+    display: flex;
+    gap: 30px;
+    background: #1e1e1e;
+    padding: 25px;
+    border-radius: 12px;
+}
+.inventario
+{
+    border: 2px dashed #444;  
+    padding: 15px;
+    width: 220px;
+    min-height: 250px;
+    border-radius: 8px;
+    background: #252525;
+}
+.mochila
+{
+    border: 2px dashed #444;  
+    padding: 15px;
+    width: 220px;
+    min-height: 250px;
+    border-radius: 8px;
+    background: #252525;
+    border-color: #bb86fc;
+}
+.item
+{
+    background: #333;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    cursor: grab;
+    user-select: none;
+}
+.item-active
+{
+    cursor: grabbing;
+}
+.mochila.over
+{
+    border-color: #03dac6;
+    background: #22333b;
+}
+#status
+{
+    font-size: 12px;
+    color:#aaa;
+    margin-top: 10px;
+    display: block;
+    font-style: italic;
+}
